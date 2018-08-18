@@ -2,7 +2,7 @@
 
 My take on The Odin Project's [Build the Android logo using just HTML and CSS](https://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics)
 
-View here
+View [here](https://denzeltl.github.io/android-logo/)
 
 **Completed on:** *08/18/2018*
 
