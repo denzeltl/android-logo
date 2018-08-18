@@ -1,0 +1,131 @@
+.green {
+    background-color: #A4CA39;
+}
+
+.white {
+    background-color: white;
+}
+
+.float {
+    display: inline-block;
+    margin: 0;
+}
+
+.container {
+    min-width: 333px;
+}
+
+/* start of head */
+
+#head {
+    width: 200px;
+    height: 90px;
+    margin: 130px auto 0;
+    border-radius: 95px 95px 0 0;
+    transition: all 0.1s ease-in;
+}
+
+#head:hover {
+    transform: rotate(-5deg) translate(0, -1px);
+    transform-origin: left bottom;
+}
+
+
+#head #l-eye {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    margin-left: 47px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+#head #r-eye {
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    margin-left: 135px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+#head #l-ant {
+    width: 6px;
+    height: 40px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 45px;
+    border-radius: 3px;
+    transform: rotate(150deg);
+}
+
+#head #r-ant {
+    width: 6px;
+    height: 40px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+    border-radius: 3px;
+    transform: rotate(30deg);
+}
+
+/* end of head */
+/* start of body */
+
+.center-body {
+    margin: 0 auto;
+    width: 303px;
+}
+
+#body {
+    width: 200px;
+    margin: 7px 2px 0;
+    height: 160px;
+    border-radius: 0 0 30px 20px;
+}
+
+#l-arm {
+    width: 45px;
+    height: 130px;
+    border-radius: 30px;
+    transition: all 0.1s ease-in;
+}
+
+#l-arm:hover {
+    transform: rotate(15deg) translate(-1px, 0);
+    transform-origin: 50% top;
+}
+
+#r-arm {
+    width: 45px;
+    height: 130px;
+    border-radius: 30px;
+    transition: all 0.1s ease-in;
+}
+
+#r-arm:hover {
+    transform: rotate(-15deg) translate(-1px, 0);
+    transform-origin: 50% top;
+}
+
+/* end of body */
+/* start of feet */
+
+.center-feet {
+    margin: 0 auto;
+    width: 115px;
+}
+
+#l-foot {
+    width: 45px;
+    height: 70px;
+    border-radius: 0 0 30px 30px;
+    margin-right: 20px;
+
+}
+
+#r-foot {
+    width: 45px;
+    height: 70px;
+    border-radius: 0 0 30px 30px;
+}
